@@ -1,0 +1,187 @@
+html{
+    font-size: 62.5%;
+}
+
+.contactus{
+    position: relative;
+    background: #ffffff;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contactusform{
+    position: relative;
+    padding-top: 10vh;
+    width: 45vw;
+}
+.orincontactus{
+    position: relative;
+    font-size: 3.6rem;
+    width: 5vw;
+    padding-top: 45vh;
+    text-align: center;
+    font-family: 'Oregano';
+}
+.visitussection{
+    position: relative;
+    height: 100vh;
+    width: 45vw;
+    text-align: center;
+}
+
+.contactustext{
+    position: relative;
+    font-family: 'Rubik';
+    font-weight: bolder;
+    font-size: 3.8rem;
+    padding-left: 3vw;
+}
+.formmsg{
+    position: relative;
+    font-family: 'Rubik';
+    font-size: 2rem;
+    padding-left: 3vw;
+    color: rgb(99, 99, 99);
+
+}
+.contactform{
+    position: relative;
+}
+
+.contactfirstName{
+    position: relative;
+    height: 5vh;
+    left: 3vw;
+    width: 17.5vw;
+    padding-left: .5vw;
+    margin-right: 3vw;;
+    margin-top: 3vh;
+    border: 1px solid #000000;
+    border-radius: .5vw;
+    outline: none;
+    font-size: 1.9rem;
+}
+.contactMessage{
+    position: relative;
+    left: 3vw;
+    height: 35vh;
+    margin-top: 3vh;
+    width: 39vw;
+    border: 1px solid #000000;
+    border-radius: .5vw;
+    outline: none;
+    font-size: 1.9rem;
+
+
+}
+.contactsendbutton{
+    position: relative;
+    left: 3vw;
+    width: 12vw;
+    height: 6vh;
+    margin-top: 3vh;
+    outline: none;
+    background: #000000;
+    color: #ffffff;
+    font-size: 1.9rem;
+    border-radius: .5vw;
+    cursor: pointer;
+    border: none;
+}
+.visitustext{
+    position: relative;
+    font-size: 6rem;
+    padding-top: 10vh;
+    font-family: 'rouge script';
+    font-weight: bolder;
+}
+.hosttxt{
+    position: relative;
+    font-size: 4rem;
+    margin-top: 10vh;
+    font-family: 'rouge script';
+    text-align: center;
+    justify-content: center;
+}
+.tablediv{
+    position: relative;
+    padding-left: 15vw;
+    margin-top: 5vh;
+}
+.timingtable{
+    position: relative;
+    justify-content: center;
+    font-size: 2.2rem;
+    font-family: 'Rubik';
+    font-weight: bolder;
+    border: 1px solid #000000;
+}
+.tdborder{
+    position: relative;
+    border: 1px solid #000000;
+    padding: .5vw;
+}
+@media(max-width:1030px){
+    .contactus{
+        height: auto;
+    }
+    .contactusform{
+        width: 100vw;
+        padding-left: 15vw;
+    }
+    .contactfirstName{
+        width: 30vw;
+        height: 4vh;
+    }
+    .contactMessage{
+        width: 65vw;
+    }
+    .contactsendbutton{
+        width: 20vw;
+        height: 5vh;
+    }
+    .orincontactus{
+        padding-top: 5vh;
+        height: 10vh;
+    }
+    .orincontactus{
+        width: 100vw;
+    }
+    .visitussection{
+        height: 50vh;
+        width: 100vw;
+    }
+    .visitustext{
+        padding-top: 5vh;
+    }
+    .hosttxt{
+        margin-top: 5vh;
+    }
+    .tablediv{
+        padding-left: 42vw
+    }
+}
+
+@media(max-width:650px){
+    html{
+        font-size: 50%;
+    }
+    .contactfirstName{
+        font-size: 150%;
+    }
+    .contactusform{
+        padding-left: 5vw;
+        width: 90vw;
+    }
+    .contactMessage{
+        height: 25vh;
+    }
+    .formmsg{
+        width: 75vw;
+    }
+    .tablediv{
+        padding-left: 33vw;
+    }
+}

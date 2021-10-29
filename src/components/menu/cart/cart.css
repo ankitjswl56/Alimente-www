@@ -1,0 +1,449 @@
+html{
+    scroll-behavior: smooth;
+}
+.cartpage{
+    position: relative;
+    width: 100vw;   
+    border: 0.1px solid #000000;
+    background: linear-gradient(rgb(46, 46, 168) ,rgb(39, 174, 219));
+}
+.backbutton{
+    position: relative;
+    top: 3vh;
+    left: 3vw;
+    border-radius: 50vw;
+    height: 5vh;
+    color: #ffffff;
+    font-size: 1.6vw;
+    font-family: 'Changa One';
+    background: none;
+    outline: none;
+    border:none;
+    cursor: pointer;
+}
+.carttxt{
+    position: relative;
+    text-align: center;
+    font-family: 'Changa One';
+    font-size: 2vw;
+    top: 3vh;
+    height: 6vh;
+    color: #ffffff
+}
+.emptycarttxt{
+    top: 15vh;
+}
+.yourbill{
+    color: rgb(1, 1, 160);;
+}
+.cartbox{
+    position: relative;
+    width: 88vw;
+    left: 6vw;
+    height: 65vh;
+    border: 4px solid #000000;
+    border-radius: 1vw;
+    top: 5vh;
+    background: #ffffff;
+}
+.cartboxinside{
+    position: relative;
+    overflow-y: scroll;
+    width: 88vw;
+    left: 0vw;
+    height: 57vh;
+    top: 0vh;
+}
+.headingincart{
+    position: relative;
+    display: inline-flex;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom: 2px solid #000000;
+    width: 88vw;
+    height: 6vh;
+    z-index: 1;
+    background: #ffffff;
+}
+.headingnameincart{
+    position: relative;
+    color: #000000;
+    left: 3vw;
+    top: 2vh;
+    height: 3vh;
+    font-family: 'Rubik';
+    font-size: 1.3vw;
+    font-weight: bolder;
+}
+.headingquantityincart{
+    position: relative;
+    color: #000000;
+    font-size: 1.3vw;
+    top: 2vh;
+    font-family: 'Rubik';
+    left: 45vw;
+    font-weight: bolder;
+}
+.headingpriceincart{
+    position: relative;
+    top: 2vh;
+    font-size: 1.3vw;
+    font-family: 'Rubik';
+    color: #000000;
+    left: 67vw;
+    font-weight: bolder;
+}
+.checkoutbox{
+    position: relative;
+    width: 30vw;
+    height: 35vh;
+    margin-bottom: 20vh;
+    top: 8vh;
+    left: 64vw;
+    border: 4px solid rgb(0, 0, 105);
+    background: #ffffff;
+    border-radius: 1vw;
+}
+.eachitem{
+    position: relative;
+    width: 88vw;
+    height: 15vh;
+    border-bottom: .5px solid #000000;
+    display: inline-flex;
+}
+.numbersforitems{
+    position: relative;
+    width: 1vw;
+    font-family: 'Rubik';
+    font-size: 1.4vw;
+    font-weight: bolder;
+    padding-top: 1vh;
+    padding-left: 1vw;
+}
+.itemnameandprice{
+    position: relative;
+    width: 45vw;
+    font-family: 'Rubik';
+    font-size: 1.4vw;
+    font-weight: bolder;
+    padding-left: 1vw;
+    padding-top: 1vh;
+}
+.itemname{
+    color: rgb(11, 11, 173);
+}
+.itemprice{
+    padding-top: 1vw;
+    color: rgb(255, 7, 7);
+}
+.itemquantity{
+    position: relative;
+    width: 3vw;
+    text-align: center;
+    padding-top: 3.5vh;
+    font-family: 'Rubik';
+    font-size: 1.3vw;
+}
+.buttonincart{
+    position: relative;
+    height: 4vh;
+    width: 2vw;
+    border-radius: .5vw;
+    top: 0vh;
+    left: 0vw;
+    margin-top: 3vh;
+    background: #000000;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-family: 'Rubik';
+    cursor: pointer;
+}
+.totalpriceforeach{
+    position: relative;
+    left: 20vw;
+    padding-top: 3vh;
+    font-size: 1.6vw;
+    font-family: 'Rubik';
+    font-weight: bolder;
+    color: rgb(0, 0, 105);
+}
+.billdetails{
+    position: relative;
+    height: 12.5vh;
+}
+.totalbilldiv{
+    position: relative;
+    display: inline-flex;
+}
+.totalbill{
+    position: relative;
+    left: 4vw;
+    top: 5vh;
+    font-family: 'Rubik';
+    font-weight: bolder;
+    font-size: 1.3vw;
+    text-align: right;
+    width: 15vw;
+    padding-top: 1vh;
+}
+.totalbillnum{
+    position: relative;
+    left: 4vw;
+    top: 5vh;
+    font-family: 'Rubik';
+    font-weight: bolder;
+    font-size: 1.3vw;
+    text-align: right;
+    width: 8vw;
+    padding-top: 1vh;
+}
+.checkoutbutton{
+    position: relative;
+    top: 9.5vh;
+    width: 30vw;
+    height: 7vh;
+    background: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 1.3vw;
+    font-family: 'Rubik';
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    border-bottom-left-radius: .6vw;
+    border-bottom-right-radius: .6vw;
+    background: linear-gradient(rgb(37, 37, 180), rgb(110, 197, 226));
+}
+.checkoutprocess{
+    position: relative;
+    top: -110vh;
+    left: 35vw;
+    height: 50vh;
+    width: 30vw;
+    border-radius: 2vw;
+    background : #ffffff;
+}
+.buttoncross{
+    position: relative;
+    left: 27vw;
+    top: 2vh;
+    background: #ffffff;
+    color: #000000;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50vw;
+    height: 4vh;
+    width: 2vw;
+}
+.paytxt{
+    position: relative;
+    text-align: center;
+    font-family: 'Changa One';
+    color: rgb(0, 0, 105);;
+    font-size: 2vw;
+    top: 2vh;
+}
+.optionstopay{
+    position: relative;
+    height: 25vh;
+    top: 8vh;
+    width: 30vw;
+}
+.orderbuttonincart{
+    position: relative;
+    left: 8vw;
+    top: 6vh;
+    height: 7vh;
+    width: 15vw;
+    border-bottom-left-radius: 10% 50%;
+    border-bottom-right-radius: 10% 50%;
+    border-top-left-radius: 10% 50%;
+    border-top-right-radius: 10% 50%;
+    border: 1px solid #ffffff;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(3, 233, 3);
+    color: #000000;
+    font-size: 1.3vw;
+}
+.eachradio{
+    position: relative;
+    display: inline-flex;
+    width: 30vw;
+    height: 5vh;
+    padding-left: 8vw;
+}
+.radiooptionsname{
+    position: relative;
+    font-family: 'Rubik';
+    font-size: 1.3vw;
+    padding-left: 1vw;
+    margin-top: -.5vh;
+    color: #000000;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+
+@media(max-width:650px){
+    .cartpage{
+        width: 100vw;   
+    }
+    .backbutton{
+        top: 1.5vh;
+        left: 3vw;
+        height: 5vh;
+        font-size: 2.6vw;
+    }
+    .carttxt{
+        font-size: 4vw;
+        top: 1.5vh;
+        height: 6vh;
+    }
+    .emptycarttxt{
+        top: 7vh;
+    }
+    .cartbox{
+        width: 88vw;
+        left: 6vw;
+        height: 35vh;
+        top: 2.5vh;
+    }
+    .cartboxinside{
+        width: 88vw;
+        left: 0vw;
+        height: 26vh;
+        top: 0vh;
+    }
+    .headingincart{
+        width: 88vw;
+        height: 3vh;
+    }
+    .headingnameincart{
+        left: 3vw;
+        top: 1vh;
+        height: 3vh;
+        font-size: 2.3vw;
+    }
+    .headingquantityincart{
+        font-size: 2.3vw;
+        top: 1vh;
+        left: 40vw;
+    }
+    .headingpriceincart{
+        top: 1vh;
+        font-size: 2.3vw;
+        left: 60vw;
+    }
+    .checkoutbox{
+        width: 30vw;
+        height: 17vh;
+        margin-bottom: 20vh;
+        top: 8vh;
+        left: 64vw;
+    }
+    .eachitem{
+        width: 88vw;
+        height: 6vh;
+    }
+    .numbersforitems{
+        width: 1vw;
+        font-size: 2.4vw;
+        padding-top: 1vh;
+        padding-left: 1vw;
+    }
+    .itemnameandprice{
+        width: 45vw;
+        font-size: 2.2vw;
+        padding-left: 2vw;
+        padding-top: 1vh;
+    }
+    .itemprice{
+        padding-top: 1vw;
+    }
+    .itemquantity{
+        width: 3vw;
+        padding-top: 2.2vh;
+        font-size: 2.6vw;
+    }
+    .buttonincart{
+        height: 2vh;
+        width: 4vw;
+        border-radius: .5vw;
+        top: 0vh;
+        left: 0vw;
+        margin-top: 2vh;
+    }
+    .totalpriceforeach{
+        left: 17vw;
+        padding-top: 1.5vh;
+        font-size: 2.2vw;
+    }
+    .billdetails{
+        height: 6.5vh;
+    }
+    .totalbill{
+        left: 1vw;
+        top: 0vh;
+        font-size: 2vw;
+        width: 15vw;
+        padding-top: -1vh;
+    }
+    .totalbillnum{
+        left:1vw;
+        top: 0vh;
+        font-size: 2vw;
+        width: 10vw;
+        padding-top: 1vh;
+    }
+    .checkoutbutton{
+        left: -.2vw;
+        top: 1.6vh;
+        width: 30.2vw;
+        height: 3vh;
+        font-size: 2.3vw;
+    }
+    .checkoutprocess{
+        top: -70vh;
+        left: 35vw;
+        height: 30vh;
+        width: 35vw;
+    }
+    .buttoncross{
+        left: 27vw;
+        top: 1vh;
+        height: 2vh;
+        width: 1vw;
+    }
+    .paytxt{
+        font-size: 2vw;
+        top: 2vh;
+    }
+    .optionstopay{
+        left: -5vw;
+        height: 12vh;
+        top: 5vh;
+        width: 30vw;
+    }
+    .orderbuttonincart{
+        left: 10vw;
+        top: 8vh;
+        height: 3vh;
+        width: 15vw;
+        font-size: 2.3vw;
+    }
+    .eachradio{
+        width: 30vw;
+        height: 3vh;
+        padding-left: 8vw;
+    }
+    .radiooptionsname{
+        font-size: 2.3vw;
+        padding-left: 1vw;
+        margin-top: .5vh;
+    }
+}

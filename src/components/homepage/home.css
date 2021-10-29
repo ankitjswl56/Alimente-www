@@ -1,0 +1,957 @@
+.carousel{
+    position: relative;
+    text-align: center;
+}
+.imagesformat{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    opacity: 1
+}
+.textinimage{
+    position: absolute;
+    top: 25vh;
+    color: #ffffff;
+    font-family: 'changa One';
+    font-size: 5vw;
+}
+/* #05eecf; */
+.text1{
+    position: relative;
+    font-size: 5vh;
+    left: 20vw;
+    width: 65vw;
+}
+.text2{
+    position: relative;
+    font-size: 8vh;
+    margin-top: 5vh;
+    left: 20vw;
+    width: 65vw;
+}
+.text3{
+    position: relative;
+    font-size: 3.5vh;
+    margin-top: 5vh;
+    left: 20vw;
+    width: 60vw;
+    width: 65vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.orderbutton{
+    position: relative;
+    left: 20vw;
+    top: 5vh;
+    height: 7vh;
+    width: 15vw;
+    border-bottom-left-radius: 10% 50%;
+    border-bottom-right-radius: 10% 50%;
+    border-top-left-radius: 10% 50%;
+    border-top-right-radius: 10% 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(74, 219, 74);
+    color: #ffffff;
+    font-size: 1.3vw;
+}
+.orderbutton:hover{
+    background-color: #f16121;
+    transition: 0.5s;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.welcomesection{
+    position: relative;
+    width: 100vw;
+    height: 200vh;
+    display: block;
+    border-top: 1px solid rgb(255, 7, 7);
+}
+.welcometext{
+    position: relative;
+    top: 0vh;
+    left: 30vw;
+    font-size: 3.5vw;
+    font-family: 'Changa One';
+    font-weight: bold;
+    color: rgb(173, 22, 98);
+    margin-top: 5vh;
+    width: 45vw;
+    text-align: center;
+}
+.carpediemtext{
+    position: relative;
+    left: 28vw;
+    width: 50vw;
+    font-size: 1.3vw;
+    color: #646464;
+    text-align: center;
+    margin-top: 3vh;
+}
+.ingredient1{
+    position: relative;
+    top: 15vh;
+    height: 80vh;
+    width: 100vw;
+    display: inline-flex;   
+}
+.ingredientsimg1{
+    position: relative;
+    top: 0vh;
+    width: 40vw;
+}
+.ingredient1txt1{
+    position: relative;
+    left: 15vw;
+    top: 10vh;
+    height: 10vh;
+    width: 40vw;
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #272b35;
+
+}
+.ingredient1txt2{
+    position: relative;
+    left: 15vw;
+    width: 40vw;
+    top: 10vh;
+    font-size: 1.2vw;
+    text-align: justify;
+    font-family: sans-serif;
+    color: #5E636D;
+}
+.viewmenu{
+    position: relative;
+    left: 15vw;
+    top: 15vh;
+    border-bottom-left-radius: 10% 50%;
+    border-bottom-right-radius: 10% 50%;
+    border-top-left-radius: 10% 50%;
+    border-top-right-radius: 10% 50%;
+    height: 7vh;
+    width: 10vw;
+    border: none;
+    outline: none;
+    background-color: rgb(31, 28, 36);
+    font-family: 'changa One';
+    font-size: 1.3vw;
+    color: #ffffff;
+    cursor: pointer;
+}
+.viewmenu:hover{
+    background-color: #f16121;
+    transition: .5s;
+}
+.ourservicesection{
+    position: relative;
+    top: 0vh;
+    height: 100vh;
+    width: 100vw;
+    display: inline-flex;   
+}
+.chefimg{
+    position: relative;
+    left: 15vw;
+    height: 90vh;
+    top: 0vh;   
+    width: 35vw;
+}
+.servicesectiontxt1{
+    position: relative;
+    top: 25vh;
+    left: 7vw;
+    width: 35vw;
+    height: 10vh;
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #272b35;
+}
+.servicesectiontxt2{
+    position: relative;
+    top: 25vh;
+    left: 7vw;
+    width: 45vw;
+    height: 10vh;
+    font-size: 1.3vw;
+    text-align: justify;
+    font-family: sans-serif;
+    color: #5E636D;
+}
+
+.viewmenu2{
+    position: relative;
+    left: 7vw;
+    top: 30vh;
+    border-bottom-left-radius: 10% 50%;
+    border-bottom-right-radius: 10% 50%;
+    border-top-left-radius: 10% 50%;
+    border-top-right-radius: 10% 50%;
+    height: 7vh;
+    width: 10vw;
+    border: none;
+    outline: none;
+    background-color: rgb(31, 28, 36);
+    font-family: 'changa One';
+    font-size: 1.3vw;
+    color: #ffffff;
+    cursor: pointer;
+}
+.viewmenu2:hover{
+    background-color: #f16121;
+    transition: .5s;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+.ourrecommendations{
+    position: relative;
+    width: 100vw;
+    height: 150vh;
+    background-image: url("../../ourspecialbackground.png");
+    background-attachment: fixed;
+    background-size: contain;
+}
+.recommendedpics{
+    position: relative;
+    top: 5vh;
+    width: 20vw
+}
+.momopic{
+    position: relative;
+    top: 5vh;
+    width: 25vw;
+}
+.momoname{
+    position: relative;
+    height: 6vh;
+    top: 6vh;
+    font-family: 'Oregano';
+    color: #ffffff;
+    font-size: 2vw;
+    background-color: rgb(34, 139, 34);
+}
+.tacosname{
+    position: relative;
+    height: 6vh;
+    top: 8vh;
+    font-family: 'Oregano';
+    color: #ffffff;
+    font-size: 2vw;
+    background-color: rgb(34, 139, 34);
+}
+.ourspecialtxt{
+    position: relative;
+    left: 38vw;
+    top: 10vh;
+    font-size: 4vw;
+    font-family: 'Changa One';
+    color: #ffffff;
+    width: 35vw;
+}
+.allspeicals1{
+    position: relative;
+    display: flex;
+    left: 5vw;
+    width: 90vw;
+    top: 20vh;
+    height: 70vh;
+}
+.allspecials2{
+    position: relative;
+    margin-top: 5vh;
+    display: flex;
+    left: 5vw;
+    width: 90vw;
+    top: 0vh;
+    height: 70vh;
+}
+.boxinspecials{
+    position: relative;
+    height: 45vh;
+    width: 25vw;
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin: 3vw;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.boxinspecials:hover{
+    transform: scale(1.05);
+    transition: .5s;
+}
+.spcialsnames{
+    position: relative;
+    height: 6vh;
+    top: -2vh;
+    font-family: 'Oregano';
+    color: #ffffff;
+    font-size: 2vw;
+    background-color: rgb(34, 139, 34);
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.reviews{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+}
+.reviewertxt{
+    position: relative;
+    text-align: center;
+    top: 10vh;
+    font-size: 3vw;
+    font-family: 'Rubik';
+    color: #000000;
+}
+.reviewscroll{
+    position: relative;
+    left: 10vw;
+    top: 15vh;
+    width: 80vw;    
+    height: 70vh;
+}
+.personimage{
+    position: relative;
+    left: 30vw;
+    border-radius: 50%;
+    height: 35vh;
+    width: 18vw;
+}
+.review{
+    position: relative;
+    height: 70vh;
+    width: 80vw;
+}
+.reviewheading{
+    position: relative;
+    font-family: 'Rubik';
+    font-size: 1.5vw;
+    color: #000000;
+    text-align: center;
+    top: 10vh;
+    font-weight: bold;
+}
+.reviewdesc{
+    position: relative;
+    font-family: 'Rubik';
+    font-size: 1.2vw;
+    color: #000000;
+    text-align: center;
+    top: 15vh;
+    left: 10vw;
+    width: 60vw;
+}
+.reviewername{
+    position: relative;
+    font-family: 'Rubik';
+    top: 2vh;
+    font-weight: bolder;
+    color: rgb(238, 63, 63);
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+.howwework{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFF1E0;
+}
+.itssimple{
+    position: relative;
+    text-align: center;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 1.4vw;
+    top: 10vh;
+}
+.weworkingtext{
+    position: relative;
+    text-align: center;
+    font-family: 'changa One';
+    top: 15vh;
+    font-size: 3vw;
+    color: #000000;
+}
+.weworkingtext2{
+    position: relative;
+    text-align: center;
+    left: 10vw;
+    width: 80vw;
+    font-family: 'Rubik';
+    top: 20vh;
+    font-size: 1.3vw;
+    color: #524e4e;
+}
+.allcircles{
+    position: relative;
+    display: inline-flex;
+}
+.circle{
+    position: relative;
+    border: 5px solid #f16121;
+    border-radius: 50%;
+    width: 15vw;
+    height: 30vh;;
+}
+
+.circlepos1{
+    position: relative;
+    left: 15vw;
+    top: 30vh; 
+}
+.circlepos2{
+    position: relative;
+    left: 25vw;
+    top: 30vh; 
+}
+.circlepos3{
+    position: relative;
+    left: 35vw;
+    top: 30vh; 
+}
+
+
+.circletopic{
+    position: relative;
+    font-family: 'Rubik';
+    font-size: 1.3vw;
+    font-weight: bold;
+    text-align: center;
+    top: 33vh;
+    
+}
+.crtopic1{
+    left: 12vw;
+}
+.crtopic2{
+    left: 23vw;
+    
+}
+.crtopic3{
+    left: 32vw;
+}
+.topicdesc{
+    position: relative;
+    font-family: 'Rubik';
+    font-size: 1.2vw;
+    text-align: center;
+    left: -2vw;
+    width: 20vw;
+    top: 35vh;
+    left: 12vw;
+}
+.desc1{
+    left: 12vw;
+}
+.desc2{
+    left: 24vw;
+}
+.desc3{
+    left: 32vw;
+}
+.fa-meal{
+    position: relative;
+    top: 8vh;
+    left: 3.5vw;
+    font-size: 8vw;
+    color: rgb(34, 139, 34);;
+}
+.delivericon{
+    position: relative;
+    top: 8vh;
+    left: 3.5vw;
+    font-size: 8vw;
+    color: rgb(34, 139, 34);;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+.loginsection{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: inline-flex;
+}
+.loginforminhomepage{
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+    height: 90vh;
+    width: 40vw;
+}
+.loginimg{
+    position: relative;
+    margin-top: -10vh;
+    left: 15vw;
+    width: 45vw;
+}
+.healthymealtxt{
+    position: relative;
+    font-family: 'Rubik';
+    font-size: 1.3vw;
+    top: 5vh;
+    font-weight: bolder;
+    text-align: center;
+    color: #000000;
+}
+.signupstepstext{
+    position: relative;
+    font-family: 'Rubik';
+    font-size: 2.2vw;
+    font-weight: bolder;
+    color: #000000;
+    text-align: center;
+    top: 8vh;
+}
+.formdesctext{
+    position: relative;
+    font-family: 'Rubik';
+    font-size: 1.2vw;
+    color: #635e5e;
+    text-align: center;
+    top: 12vh;
+    left: 5vw;
+    width: 30vw;
+}
+.formdetails{
+    position: relative;
+    top: 15vh;
+    left: 5vw;
+    width: 30vw;
+    height: 40vh;
+}
+.textformatinform {
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+    width: 25vw;
+    height: 7vh;
+    font-family: 'Rubik';
+    font-weight: bolder;
+    font-size: 1.2vw;
+    border: 1px solid #000000;
+    border-top-left-radius: 5% 20%;
+    border-top-right-radius: 5% 20%;
+    border-bottom-left-radius: 5% 20%;
+    border-bottom-right-radius: 5% 20%;
+    outline: none;
+    margin-bottom: 2vh;
+    padding-left: 1vw;
+}
+.buttonofformdetails{
+    position: relative;
+    display: inline-flex;
+    width: 26vw;
+    height: 15vh;
+    left: 2vw;
+}
+.formsubmit{
+    position: relative;
+    top: 2vh;
+    margin-left: 0vw;
+    height: 7vh;
+    width: 10vw;
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border-top-left-radius: 5% 10%;
+    border-top-right-radius: 5% 10%;
+    border-bottom-left-radius: 5% 10%;
+    border-bottom-right-radius: 5% 10%;
+    outline: none;
+    cursor: pointer;
+}
+.orbetweenbuttons{
+    position: relative;
+    font-family: 'Rubik';
+    font-size: 1.3vw;
+    top: 4vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+    .imagesformat{
+        height: 40vh;
+        width: 100vw;
+    }
+    .textinimage{
+        top: 5vh;
+    }
+    .text1{
+        font-size: 2vh;
+        left: 20vw;
+        width: 65vw;
+    }
+    .text2{
+        font-size: 2.3vh;
+        margin-top: 2vh;
+        left: 10vw;
+        width: 80vw;
+    }
+    .text3{
+        font-size: 1.3vh;
+        margin-top: 2vh;
+        left: 10vw;
+        width: 80vw;
+    }
+    .orderbutton{
+        left: 10vw;
+        top: 0vh;
+        height: 2vh;
+        width: 15vw;
+        font-size: 2vw;
+    }
+    .welcomesection{
+        width: 100vw;
+        height: 100vh;
+    }
+    .welcometext{
+        top: 0vh;
+        left: 30vw;
+        font-size: 4.5vw;
+        margin-top: 5vh;
+        width: 45vw;
+    }
+    .carpediemtext{
+        left: 23vw;
+        width: 60vw;
+        font-size: 1.9vw;
+        margin-top: 3vh;
+    }
+    .ingredient1{
+        top: 5vh;
+        height: 40vh;
+        width: 100vw;
+    }
+    .ingredient1txt1{
+        left: 10vw;
+        top: 10vh;
+        height: 10vh;
+        width: 50vw;
+        font-size: 3.5vw;
+    }
+    .ingredient1txt2{
+        left: 10vw;
+        width: 45vw;
+        top: 3vh;
+        font-size: 1.9vw;
+    }
+    .viewmenu{
+        left: 10vw;
+        top: 5vh;
+        height: 3vh;
+        width: 20vw;
+        font-size: 1.9vw;
+    }
+    .ourservicesection{
+        top: 0vh;
+        height: 50vh;
+        width: 100vw;
+    }
+    .chefimg{
+        left: 5vw;
+        height: 45vh;
+        top: 0vh;   
+        width: 55vw;
+    }
+    .servicesectiontxt1{
+        top: 15vh;
+        left: 7vw;
+        width: 35vw;
+        height: 10vh;
+        font-size: 3.2vw;
+    }
+    .servicesectiontxt2{
+        top: 8vh;
+        left: 7vw;
+        width: 40vw;
+        height: 10vh;
+        font-size: 1.9vw;
+    }
+    
+    .viewmenu2{
+        left: 7vw;
+        top: 6vh;
+        height: 3vh;
+        width: 15vw;
+        font-size: 1.9vw;
+    }
+    .ourrecommendations{
+        width: 100vw;
+        height: 75vh;
+        
+    }
+    .recommendedpics{
+        top: 5vh;
+        width: 20vw
+    }
+    .momopic{
+        top: 5vh;
+        width: 25vw;
+    }
+    .momoname{
+        height: 2vh;
+        top: 7vh;
+        font-size: 2vw;
+    }
+    .tacosname{
+        height: 2vh;
+        top: 7vh;
+        font-size: 2vw;
+    }
+    .ourspecialtxt{
+        left: 35vw;
+        top: 5vh;
+        font-size: 5vw;
+        width: 45vw;
+    }
+    .allspeicals1{
+        left: 5vw;
+        width: 90vw;
+        top: 10vh;
+        height: 35vh;
+    }
+    .allspecials2{
+        margin-top: 5vh;
+        left: 5vw;
+        width: 90vw;
+        top: 0vh;
+        height: 35vh;
+    }
+    .boxinspecials{
+        height: 18vh;
+        width: 25vw;
+        margin: 3vw;
+    }
+    .spcialsnames{
+        height: 2vh;
+        top: 5vh;
+        font-size: 2.5vw;
+    }
+    .reviews{
+        width: 100vw;
+        height: 50vh;
+    }
+    .reviewertxt{
+        top: 5vh;
+        font-size: 4vw;
+    }
+    .reviewscroll{
+        left: 10vw;
+        top: 8vh;
+        width: 80vw;    
+        height: 45vh;
+    }
+    .personimage{
+        left: 30vw;
+        height: 16vh;
+        width: 18vw;
+    }
+    .review{
+        height: 40vh;
+        width: 80vw;
+    }
+    .reviewheading{
+        font-size: 2.8vw;
+        top: 6vh;
+    }
+    .reviewdesc{
+        font-size: 2.4vw;
+        top: 8vh;
+        left: 5vw;
+        width: 70vw;
+    }
+    .reviewername{
+        left: -3vw;
+        top: 2vh;
+        width: 25vw;
+    }
+    .howwework{
+        height: 45vh;
+        width: 100vw;
+    }
+    .itssimple{
+        font-size: 2.6vw;
+        top: 5vh;
+    }
+    .weworkingtext{
+        top: 7vh;
+        font-size: 5vw;
+    }
+    .weworkingtext2{
+        left: 10vw;
+        width: 80vw;
+        top: 10vh;
+        font-size: 2.6vw;
+    }
+    .circle{
+        width: 15vw;
+        height: 10vh;;
+    }
+    
+    .circlepos1{
+        left: 15vw;
+        top: 15vh; 
+    }
+    .circlepos2{
+        left: 25vw;
+        top: 15vh; 
+    }
+    .circlepos3{
+        left: 35vw;
+        top: 15vh; 
+    }
+    .circletopic{
+        font-size: 2.3vw;
+        top: 18vh;
+    }
+    .crtopic1{
+        left: 12vw;
+    }
+    .crtopic2{
+        left: 23vw;
+    }
+    .crtopic3{
+        left: 32vw;
+    }
+    .topicdesc{
+        font-size: 2.2vw;
+        width: 20vw;
+        top: 18vh;
+    }
+    .desc1{
+        left: 12vw;
+    }
+    .desc2{
+        left: 24vw;
+    }
+    .desc3{
+        left: 32vw;
+    }
+    .fa-meal{
+        top: 3vh;
+        left: 3vw;
+        font-size: 8.5vw;
+    }
+    .loginsection{
+        height: 40vh;
+        width: 100vw;
+    }
+    .loginforminhomepage{
+        top: 5vh;
+        left: 10vw;
+        height: 250px;
+        width: 40vw;
+    }
+    .loginimg{
+        margin-top: 5vh;
+        left: 8vw;
+        width: 50vw;
+    }
+    .healthymealtxt{
+        font-size: 2.3vw;
+        top: 0vh;
+    }
+    .signupstepstext{
+        font-size: 2.8vw;
+        top: 2vh;
+    }
+    .formdesctext{
+        font-size: 2.2vw;
+        top: 3vh;
+        left: -2vw;
+        width: 45vw;
+    }
+    .formdetails{
+        top: 7vh;
+        left: 5vw;
+        width: 30vw;
+        height: 130px;
+    }
+    .textformatinform {
+        top: -2vh;
+        left: -2vw;
+        width: 30vw;
+        height: 18px;
+        font-size: 2.2vw;
+        margin-bottom: 1vh;
+        padding-left: 1vw;
+    }
+    .buttonofformdetails{
+        width: 26vw;
+        height: 6vh;
+        left: 2vw;
+    }
+    .formsubmit{
+        top: -2vh;
+        margin-left: -2vw;
+        height: 3vh;
+        width: 12vw;
+        font-size: 1.5vw;
+    }
+    .orbetweenbuttons{
+        font-size: 2.3vw;
+        top: -1vh;
+        height: 1vh;
+        margin-left: .7vw;
+        margin-right: 3vw;
+    }
+}
