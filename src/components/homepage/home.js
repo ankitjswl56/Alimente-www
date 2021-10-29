@@ -39,7 +39,7 @@ class Home extends Component{
                 this.state.password.length < 4
             ){
                 alert('Password should be atleast 4 characters')
-            }else if(this.state.phonenumber.length != 10){
+            }else if(this.state.phonenumber.length !== 10){
                 alert('Phonenumber invalid')
             }else{
                 if(this.props.user.login.loginauth){

@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { checkisauth } from '../actions';
 import './layout.css';
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default function(ComposedClass, isallowed){
     class Authcheck extends Component{
         state = {

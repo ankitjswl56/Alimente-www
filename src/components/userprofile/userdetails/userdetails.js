@@ -38,7 +38,7 @@ class Userdetails extends Component{
     }
     editdetails = (event) =>{
         event.preventDefault()
-        if(String(this.state.phone).length != 10){
+        if(String(this.state.phone).length !== 10){
             alert('Invalid Phone Number')
         }else{
             console.log(this.state.phone, String(this.state.address))
@@ -51,7 +51,7 @@ class Userdetails extends Component{
         this.state.newpassword === '' ||
         this.state.newpassword2 === ''){
             alert('Please fill the form complete')
-        }else if(this.state.newpassword != this.state.newpassword2){
+        }else if(this.state.newpassword !== this.state.newpassword2){
             alert('New Password donot match')
         }else if(this.state.oldpassword === this.state.newpassword2){
             alert('New Password cannot be Old Password')

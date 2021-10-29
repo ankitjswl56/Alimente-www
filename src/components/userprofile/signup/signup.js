@@ -28,7 +28,7 @@ class Signup extends Component{
             this.phonenumber === ''){
                 alert('Please fill the form completely')
             }else if(!this.state.email.includes('@') || 
-                this.state.email.slice(this.state.email.length-4) != '.com'
+                this.state.email.slice(this.state.email.length-4) !== '.com'
             ){
                 console.log(this.state.email)
                 alert('Please enter valid email')

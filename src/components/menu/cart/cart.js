@@ -66,7 +66,7 @@ class Cart extends Component{
                 }
             }
             if(flag === 0){
-                rescart = (rescart.filter((Each)=>{return Each.name != items.name}))
+                rescart = (rescart.filter((Each)=>{return Each.name !== items.name}))
             }
             cookies.set('rescart',rescart)
             this.setState({

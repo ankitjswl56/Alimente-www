@@ -20,7 +20,7 @@ class Menu extends Component{
                 cart : [...cookies.get('rescart')]
             })
         }
-        if(this.props.picclicked != ''){
+        if(this.props.picclicked !== ''){
             this.setState({
                 menuselect : this.props.picclicked
             })
@@ -81,7 +81,7 @@ class Menu extends Component{
             }
         }
         if(flag === 0){
-            rescart = (rescart.filter((Each)=>{return Each.name != items.name}))
+            rescart = (rescart.filter((Each)=>{return Each.name !== items.name}))
         }
         cookies.set('rescart',rescart)
         this.setState({
@@ -124,7 +124,7 @@ class Menu extends Component{
                     menuitems[0].map((Each)=>{
                         return(
                             <div key={Each.name} className='eachitems' data-aos='fade-right'>
-                                <img src={`/images/foodimages/${menu.split(' ').join('')}.png`} className='foodimage'/>
+                                <img src={`/images/foodimages/${menu.split(' ').join('')}.png`} alt='image_photo' className='foodimage' />
                                 <div className='eachitemdetails'>
                                     <p className='eachitemsname'>{Each.name}</p>
                                     <p className='eachitemsprice'>Rs. {Each.price}</p>
@@ -144,14 +144,14 @@ class Menu extends Component{
             return typesofitems.map((Each,i)=>{
                 return(
                     <div >
-                        {Array.isArray(Each) != true ?  
+                        {Array.isArray(Each) !== true ?  
                         [console.log(Each),
                         <h3 className='eachitemsubtopic'>{Each.split('_').join(' ')}</h3>]
                         :
                         Each.map((eachitem)=>{
                             return(
                                 <div key={eachitem.name} className='eachitems' data-aos='fade-right'>
-                                    <img src={`/images/foodimages/${typesofitems[i-1].split('_').join('')}.png`} className='foodimage'/>
+                                    <img src={`/images/foodimages/${typesofitems[i-1].split('_').join('')}.png`} alt='image_photo' className='foodimage'/>
                                     <div className='eachitemdetails'>
                                         <p className='eachitemsname'>{eachitem.name}</p>
                                         <p className='eachitemsprice'>Rs. {eachitem.price}</p>

@@ -51,7 +51,7 @@ class Resetpassword extends Component{
             this.state.confirmnewpassword === ''
         ){
             alert('Please fill the form complete.')
-        }else if(this.state.newpassword != this.state.confirmnewpassword){
+        }else if(this.state.newpassword !== this.state.confirmnewpassword){
             alert('Password do not match')
         }else{
             this.props.resetpasswordwithcode(this.state.usercode, this.state.newpassword, this.state.email)
